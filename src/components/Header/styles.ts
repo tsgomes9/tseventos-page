@@ -50,8 +50,8 @@ export const NavLink = styled.a`
 `
 
 export const NavIconDiv = styled.div`
-    width: 6vw;
-    height: 6vw;
+    width: 6vh;
+    height: 6vh;
     padding: 2px;
     border-radius: 100%;  
     display: none;
