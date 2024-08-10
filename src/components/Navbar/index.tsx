@@ -8,7 +8,7 @@ import {
 } from "./styles";
 import NavIconSrc from "../../assets/navbar-icon.png";
 
-export default function Header() {
+export default function Navbar() {
   return (
     <NavBar>
       <NavTitle>TS EVENTOS</NavTitle>

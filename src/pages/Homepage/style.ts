@@ -36,7 +36,7 @@ export const TextArea = styled.div`
     flex-direction: column;
 
     @media screen and (max-width: 1100px){
-        height: 36vh;
+        height: 40vh;
         width: 100%;
         margin: 0;
         align-items: center;
