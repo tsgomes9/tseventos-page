@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 
 export const HomeSection = styled.section`
@@ -120,11 +120,21 @@ export const ImageArea = styled.div`
     
 `
 
+const moveUpDown = keyframes`
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+`;
+
 export const ImageHome = styled.img`
     width: 100%;
     image-rendering: auto;
     display: block;
     margin: auto;
+    animation: ${moveUpDown} 1.5s ease-in-out infinite;
 
     @media screen and (max-width: 1100px){
         max-height: 27vh;
