@@ -1,4 +1,4 @@
-import { OutlinedButton, SessionDefault, TextH1, TextH2 } from "../../style";
+import { OutlinedButton, SessionDefault, TextH1 } from "../../style";
 import {
   ContentDiv,
   ImgFooter,
