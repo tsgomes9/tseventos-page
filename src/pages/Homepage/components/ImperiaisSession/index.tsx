@@ -10,9 +10,12 @@ import {
   TitleDiv,
 } from "./style";
 import FooterImg from "../../../../assets/ImperialSession/session-footer.png";
+import ImperialImg01 from "../../../../assets/ImperialSession/imperial-01.png";
+import ImperialImg02 from "../../../../assets/ImperialSession/imperial-02.png";
+import ImperialImg03 from "../../../../assets/ImperialSession/imperial-03.png";
+import ImperialImg04 from "../../../../assets/ImperialSession/imperial-04.png";
 
 export default function ImperiaisSession() {
-  const indexImg = [1, 2, 3, 4];
   return (
     <SessionDefault backgroundColor="#F2F2F2">
       <TitleDiv>
@@ -24,12 +27,10 @@ export default function ImperiaisSession() {
 
       <ContentDiv>
         <ImperialGallery>
-          {indexImg.map((img, i) => (
-            <ImperialImage
-              key={i}
-              src={`src/assets/ImperialSession/imperial-0${img}.png`}
-            />
-          ))}
+          <ImperialImage src={ImperialImg01} />
+          <ImperialImage src={ImperialImg02} />
+          <ImperialImage src={ImperialImg03} />
+          <ImperialImage src={ImperialImg04} />
         </ImperialGallery>
 
         <TextContent>
