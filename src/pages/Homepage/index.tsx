@@ -11,6 +11,7 @@ import {
 } from "./style";
 import LogoTs from "../../assets/logo-ts.png";
 import ImgHome from "../../assets/img-site.png";
+import ImperiaisSession from "./components/ImperiaisSession";
 
 export default function Homepage() {
   return (
@@ -29,6 +30,8 @@ export default function Homepage() {
           <ImageHome src={ImgHome} />
         </ImageArea>
       </ContentSession>
+
+      <ImperiaisSession />
     </HomeSection>
   );
 }

@@ -63,7 +63,7 @@ export const TextH1 = styled.h1`
 export const TextH2 = styled.h2`
     color: grey;
     font-size: 28px;
-    font-family: 'Roboto Thin';
+    font-family: 'Roboto Light';
     font-weight: lighter;
     margin-top: 20px;
 
@@ -130,5 +130,28 @@ export const ImageHome = styled.img`
         max-height: 27vh;
         position: absolute;
         bottom: 0;
+    }
+`
+
+interface SessionProps {
+    backgroundColor: string;
+}
+
+export const SessionDefault = styled.section<SessionProps>`
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: ${props => props.backgroundColor};
+`
+
+export const OutlinedButton = styled(ButtonHome)`
+    border: 1px solid #F6954B;
+    color: #F6954B;
+    background:none;
+
+    &:hover{
+        color: white;
     }
 `
