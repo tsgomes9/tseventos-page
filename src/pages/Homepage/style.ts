@@ -20,6 +20,18 @@ export const Logo = styled.img`
     }
 `
 
+export const TitleDiv = styled.div`
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+
+    @media screen and (max-width: 800px){
+        height: 15vh;
+    }
+`
+
 export const ContentSession = styled.div`
     display: flex;
 

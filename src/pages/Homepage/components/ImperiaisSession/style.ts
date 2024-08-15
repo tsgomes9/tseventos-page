@@ -1,17 +1,7 @@
 import styled from "styled-components";
 import { TextH2 } from "../../style";
 
-export const TitleDiv = styled.div`
-    height: 25vh;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    text-align: center;
 
-    @media screen and (max-width: 800px){
-        height: 15vh;
-    }
-`
 
 export const ContentDiv = styled.div`
     height: 60vh;

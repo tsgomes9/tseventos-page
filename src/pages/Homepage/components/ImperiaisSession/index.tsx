@@ -1,4 +1,4 @@
-import { OutlinedButton, SessionDefault, TextH1 } from "../../style";
+import { OutlinedButton, SessionDefault, TextH1, TitleDiv } from "../../style";
 import {
   ContentDiv,
   ImgFooter,
@@ -7,7 +7,6 @@ import {
   SessionFooter,
   TextContent,
   TextH2ImperialSession,
-  TitleDiv,
 } from "./style";
 import FooterImg from "../../../../assets/ImperialSession/session-footer.png";
 import ImperialImg01 from "../../../../assets/ImperialSession/imperial-01.png";

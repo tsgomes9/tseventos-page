@@ -12,6 +12,7 @@ import {
 import LogoTs from "../../assets/logo-ts.png";
 import ImgHome from "../../assets/img-site.png";
 import ImperiaisSession from "./components/ImperiaisSession";
+import CrockerySession from "./components/CrockerySession";
 
 export default function Homepage() {
   return (
@@ -32,6 +33,8 @@ export default function Homepage() {
       </ContentSession>
 
       <ImperiaisSession />
+
+      <CrockerySession />
     </HomeSection>
   );
 }
