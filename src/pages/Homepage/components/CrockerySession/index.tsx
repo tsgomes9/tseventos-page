@@ -49,6 +49,7 @@ export default function CrockerySession() {
             <CardText>
               Rechauds elegantes para manter seus pratos quentes e saborosos.
             </CardText>
+
             <OutlinedButtonResponsive>
               Mais Informações
             </OutlinedButtonResponsive>

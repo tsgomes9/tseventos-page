@@ -99,7 +99,7 @@ export const CardTextContent = styled.div`
   @media screen and (max-width: 800px) {
     height: 100%;
     width: 80%;
-    justify-content: start;
+    position: relative;
   }
 `;
 
@@ -119,6 +119,7 @@ export const CardTitle = styled.h1`
 
   @media screen and (max-width: 500px) {
     font-size: 1.2rem;
+    height: 40%;
   }
 `;
 
@@ -134,7 +135,7 @@ export const CardText = styled.h2`
   }
 
   @media screen and (max-width: 800px) {
-    height: 2.5rem;
+    height: 40%;
     font-size: 0.9rem;
     width: 100%;
   }
@@ -150,7 +151,7 @@ export const OutlinedButtonResponsive = styled(OutlinedButton)`
     height: 3rem;
     font-size: 1rem;
     max-width: 80%;
-    margin: 20px 0;
+    margin: 0;
   }
 `;
 
