@@ -1,11 +1,14 @@
-import { OutlinedButton, SessionDefault, TextH1 } from "../../style";
+import { SessionDefault, TextH1 } from "../../style";
 import {
   CardImg,
+  CardImgContainer,
   CardItem,
   CardsList,
   CardText,
+  CardTextContent,
   CardTitle,
   FooterCrockerySession,
+  OutlinedButtonResponsive,
   TitleCrockerySession,
 } from "./style";
 import CrockeryImg from "../../../../assets/CrockerySession/img-01.jpg";
@@ -21,32 +24,51 @@ export default function CrockerySession() {
 
       <CardsList>
         <CardItem>
-          <CardImg src={CrockeryImg} />
-          <CardTitle>Pratos, talheres e taça</CardTitle>
-          <CardText>
-            Kit de louças completo, combinando elegância e praticidade.
-          </CardText>
-          <OutlinedButton>Mais Informações</OutlinedButton>
+          <CardImgContainer>
+            <CardImg src={CrockeryImg} />
+          </CardImgContainer>
+
+          <CardTextContent>
+            <CardTitle>Pratos, talheres e taça</CardTitle>
+            <CardText>
+              Kit de louças completo, combinando elegância e praticidade.
+            </CardText>
+            <OutlinedButtonResponsive>
+              Mais Informações
+            </OutlinedButtonResponsive>
+          </CardTextContent>
         </CardItem>
 
         <CardItem>
-          <CardImg src={Recheaud} />
-          <CardTitle>Recheauds</CardTitle>
-          <CardText>
-            Rechauds de qualidade e elegantes para manter seus pratos quentes e
-            saborosos.
-          </CardText>
-          <OutlinedButton>Mais Informações</OutlinedButton>
+          <CardImgContainer>
+            <CardImg src={Recheaud} />
+          </CardImgContainer>
+
+          <CardTextContent>
+            <CardTitle>Recheauds</CardTitle>
+            <CardText>
+              Rechauds elegantes para manter seus pratos quentes e saborosos.
+            </CardText>
+            <OutlinedButtonResponsive>
+              Mais Informações
+            </OutlinedButtonResponsive>
+          </CardTextContent>
         </CardItem>
 
         <CardItem>
-          <CardImg src={Bandeja} />
-          <CardTitle>Bandejas</CardTitle>
-          <CardText>
-            Bandejas sofisticadas, perfeitas tanto para saladas quanto para
-            frios.
-          </CardText>
-          <OutlinedButton>Mais Informações</OutlinedButton>
+          <CardImgContainer>
+            <CardImg src={Bandeja} />
+          </CardImgContainer>
+          <CardTextContent>
+            <CardTitle>Bandejas</CardTitle>
+            <CardText>
+              Bandejas sofisticadas, perfeitas tanto para saladas quanto para
+              frios.
+            </CardText>
+            <OutlinedButtonResponsive>
+              Mais Informações
+            </OutlinedButtonResponsive>
+          </CardTextContent>
         </CardItem>
       </CardsList>
 
